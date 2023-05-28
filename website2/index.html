@@ -2,15 +2,78 @@
 
 <html>
     <head>
-
+        <meta charset="UTF-8">
+        <title>Barberia</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <ul>
-                <li><a href = "productos.html">Productos</a></li>
-                <li>Contacto</li>
-            </ul>
+            <div class = "caja">
+                <h1><img src = "imagenes/logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "productos.html">Productos</a></li>
+                        <li><a href = "contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
+
+        <img class="banner" src="imagenes/banner.jpg">
+
+        <main>
+            <section class="principal">
+                <h2 class="titulo_principal">Sobre la barberia</h2>
+
+                <img class="utensilios" src="imagenes/utensilios.jpg" alt="Utensilios de un
+                barbero.">
+                
+                <p>Barbería de estilo moderno y ambiente acogedor. Expertos barberos brindando cortes de cabello, afeitados y cuidado de barba de alta calidad. Ven y disfruta de una experiencia de barbería excepcional en un espacio único.</p>
+                
+                <p><strong>Servicios</strong> Corte de cabello de moda, afeitados clásicos, cuidado de barba y bigote, arreglos de cejas. También ofrecemos productos de cuidado personal para hombres. Descubre la excelencia en nuestros servicios de barbería con atención personalizada y resultados impecables.</p>
+            </section>
+
+            <section class="mapa">
+                <h3 class = "titulo_principal">Nuestra ubicación</h3>
+                <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
+                <div class="mapa_contenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.225959354688!2d-75.57391254367482!3d6.248840416557373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44299504791cd5%3A0xb9f74bc5b2564ad3!2sCentro%20De%20Medellin!5e0!3m2!1ses!2sco!4v1685055492850!5m2!1ses!2sco" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+            </section>
+
+            <section class="diferenciales">
+
+                <h3 class = "titulo_principal">Diferenciales</h3>
+
+                <div class="contenido_diferenciales">
+                    <ul class="lista_diferenciales">
+                        <li class="items">Atención personalizada</li>
+                        <li class="items">Espacios diferenciados</li>
+                        <li class="items">Localización</li>
+                        <li class="items">Profesionales en el área</li>
+                    </ul>
+                    <img class="imagen_diferenciales" src="imagenes/diferenciales.jpg">
+                </div>
+
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </section>
+
+
+        </main>
+
+        <footer>
+            <img src = "imagenes/logo-blanco.png">
+            <p class = "copyright">&copy Copyright Tienda 2023</p>
+        </footer>
     </body>
+
+
 </html>
